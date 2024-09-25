@@ -1,6 +1,7 @@
 import axios from "axios";
-const backendUrl = `http://localhost:3001/api/v1/job`;
+// const backendUrl = `http://localhost:3001/api/v1/job`;
 
+const backendUrl = `https://server-dej3.onrender.com`
 export const createJobPost = async (jobPostPayload) => {
     try {
         const reqUrl = `${backendUrl}/create`;
