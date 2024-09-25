@@ -1,5 +1,6 @@
 import axios from "axios";
-const backendUrl = `http://localhost:3001/api/v1/auth`;
+// const backendUrl = `http://localhost:3001/api/v1/auth`;
+const backendUrl = `https://server-dej3.onrender.com`
 
 export const registerUser = async ({ email, password, mobile, name }) => {
     try {
